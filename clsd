@@ -1,0 +1,42 @@
+.styleci.yml[36m:[m  preset: [1;31mlaravel[m
+composer.json[36m:[m    "name": "[1;31mlaravel[m/[1;31mlaravel[m",
+composer.json[36m:[m        "[1;31mlaravel[m"
+composer.json[36m:[m        "[1;31mlaravel[m/framework": "5.8.*",
+composer.json[36m:[m        "[1;31mlaravel[m/tinker": "^1.0"
+composer.json[36m:[m        "beyondcode/[1;31mlaravel[m-dump-server": "^1.0",
+composer.json[36m:[m        "[1;31mlaravel[m": {
+composer.lock[36m:[m                "[1;31mlaravel[m": {
+composer.lock[36m:[m            "name": "[1;31mlaravel[m/framework",
+composer.lock[36m:[m                "url": "https://github.com/[1;31mlaravel[m/framework.git",
+composer.lock[36m:[m                "url": "https://api.github.com/repos/[1;31mlaravel[m/framework/zipball/7ccf0cf63931a8d8391aed90e6fc011381ea6838",
+composer.lock[36m:[m                "[1;31mlaravel[m/tinker": "Required to use the tinker console command (^1.0).",
+composer.lock[36m:[m                    "email": "taylor@[1;31mlaravel[m.com"
+composer.lock[36m:[m            "homepage": "https://[1;31mlaravel[m.com",
+composer.lock[36m:[m                "[1;31mlaravel[m"
+composer.lock[36m:[m            "name": "[1;31mlaravel[m/tinker",
+composer.lock[36m:[m                "url": "https://github.com/[1;31mlaravel[m/tinker.git",
+composer.lock[36m:[m                "url": "https://api.github.com/repos/[1;31mlaravel[m/tinker/zipball/eb0075527fdeeb1cc1d68bd4ca7d50256b30a827",
+composer.lock[36m:[m                "[1;31mlaravel[m": {
+composer.lock[36m:[m                    "email": "taylor@[1;31mlaravel[m.com"
+composer.lock[36m:[m                "[1;31mlaravel[m",
+composer.lock[36m:[m                "[1;31mlaravel[m": {
+composer.lock[36m:[m            "name": "beyondcode/[1;31mlaravel[m-dump-server",
+composer.lock[36m:[m                "url": "https://github.com/beyondcode/[1;31mlaravel[m-dump-server.git",
+composer.lock[36m:[m                "url": "https://api.github.com/repos/beyondcode/[1;31mlaravel[m-dump-server/zipball/8864b9efcb48e0a79e83014dd7f0a5481f5c808f",
+composer.lock[36m:[m                "[1;31mlaravel[m": {
+composer.lock[36m:[m            "homepage": "https://github.com/beyondcode/[1;31mlaravel[m-dump-server",
+composer.lock[36m:[m                "[1;31mlaravel[m-dump-server"
+composer.lock[36m:[m                "[1;31mlaravel[m/framework": "5.8.*",
+composer.lock[36m:[m                "[1;31mlaravel[m": {
+composer.lock[36m:[m                "[1;31mlaravel[m",
+composer.lock[36m:[m                "[1;31mlaravel[m-zero",
+config/cache.php[36m:[m    'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', '[1;31mlaravel[m'), '_').'_cache'),
+config/database.php[36m:[m            'prefix' => Str::slug(env('APP_NAME', '[1;31mlaravel[m'), '_').'_database_',
+config/logging.php[36m:[m            'path' => storage_path('logs/[1;31mlaravel[m.log'),
+config/logging.php[36m:[m            'path' => storage_path('logs/[1;31mlaravel[m.log'),
+config/session.php[36m:[m        Str::slug(env('APP_NAME', '[1;31mlaravel[m'), '_').'_session'
+package.json[36m:[m        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/[1;31mlaravel[m-mix/setup/webpack.config.js",
+package.json[36m:[m        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/[1;31mlaravel[m-mix/setup/webpack.config.js",
+package.json[36m:[m        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/[1;31mlaravel[m-mix/setup/webpack.config.js"
+package.json[36m:[m        "[1;31mlaravel[m-mix": "^4.0.7",
+public/css/app.css[36m:[m */:root{--blue:#3490dc;--indigo:#6574cd;--purple:#9561e2;--pink:#f66d9b;--red:#e3342f;--orange:#f6993f;--yellow:#ffed4a;--green:#38c172;--teal:#4dc0b5;--cyan:#6cb2eb;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#3490dc;--secondary:#6c757d;--success:#38c172;--info:#6cb2eb;--warning:#ffed4a;--danger:#e3342f;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:"Nunito",sans-serif;--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,:after,:before{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:rgba(0,0,0,0)}@-ms-viewport{width:device-width}article,aside,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}body{margin:0;font-family:Nunito,sans-serif;font-size:.9rem;font-weight:400;line-height:1.6;color:#212529;text-align:left;background-color:#f8fafc}[tabindex="-1"]:focus{outline:0!important}hr{box-sizing:content-box;height:0;overflow:visible}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}abbr[data-original-title],abbr[title]{text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted;cursor:help;border-bottom:0}address{font-style:normal;line-height:inherit}address,dl,ol,ul{margin-bottom:1rem}dl,ol,ul{margin-top:0}ol ol,ol ul,ul ol,ul ul{margin-bottom:0}dt{font-weight:700}dd{margin-bottom:.5rem;margin-left:0}blockquote{margin:0 0 1rem}dfn{font-style:italic}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}a{color:#3490dc;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}a:hover{color:#1d68a7;text-decoration:underline}a:not([href]):not([tabindex]),a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{color:inherit;text-decoration:none}a:not([href]):not([tabindex]):focus{outline:0}code,kbd,pre,samp{font-family:SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-size:1em}pre{margin-top:0;margin-bottom:1rem;overflow:auto;-ms-overflow-style:scrollbar}figure{margin:0 0 1rem}img{border-style:none}img,svg{vertical-align:middle}svg{overflow:hidden}table{border-collapse:collapse}caption{padding-top:.75rem;padding-bottom:.75rem;color:#6c757d;text-align:left;caption-side:bottom}th{text-align:inherit}label{display:inline-block;margin-bottom:.5rem}button{border-radius:0}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}button,input,optgroup,select,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=date],input[type=datetime-local],input[type=month],input[type=time]{-webkit-appearance:listbox}textarea{overflow:auto;resize:vertical}fieldset{min-width:0;padding:0;margin:0;border:0}legend{display:block;width:100%;max-width:100%;padding:0;margin-bottom:.5rem;font-size:1.5rem;line-height:inherit;color:inherit;white-space:normal}progress{vertical-align:baseline}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{outline-offset:-2px;-webkit-appearance:none}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}output{display:inline-block}summary{display:list-item;cursor:pointer}template{display:none}[hidden]{display:none!important}.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit}.h1,h1{font-size:2.25rem}.h2,h2{font-size:1.8rem}.h3,h3{font-size:1.575rem}.h4,h4{font-size:1.35rem}.h5,h5{font
